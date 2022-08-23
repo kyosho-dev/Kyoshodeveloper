@@ -1,0 +1,44 @@
+body{
+	font-family: Helvetica, sans-serif;
+}
+a:link, a:visited{
+	color: #ff6600;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+#wrap{
+	width: 960px;  /*largura*/
+	margin: auto;  /*centraliza*/
+	background: #e3e3e3;
+	padding-left: 20px; /*move todo o testo*/
+	overflow: hidden;
+
+}
+header nav ul{
+	list-style: none; /* tira a bolinha da fonte */
+	padding-left: 0; /*move a margem, conteudo */
+}
+header nav ul li{
+	display: inline-block; /* alinha o texto */
+	margin-right: 10px; /* margem de espasamento */
+}
+header nav ul li a { /* Links menu 1 */
+	font-size: 18px;
+}
+
+#content{
+	float: left; /*muda a localização para a esquerda*/
+	width: 660px;
+}
+#sidebar{
+	float: right;
+	width: 300px;
+}
+#sidebar ul{
+	list-style: none;
+}
+#footer{
+	clear: both; /*limpa as flutuações anteriores*/
+}

@@ -1,0 +1,29 @@
+fazer dividido em linhas é colunas
+
+
+
+grid 960 normal / 12 = 80
+
+
+
+
+no heder
+bakgroud-image: url("../imagens/banner_site.jpg);   [da pra usar o linear-gradient(rgba(0,0,0,0,0,0))
+background-position: center
+backgroud-size: cover;
+
+
+border-radius: 3px
+pading: 8px 12px
+transition 200ms
+
+
+
+
+
+
+justify-content: space-between
+align_items: center
+width 100 %
+display: flex
+position: fixed
